@@ -3,7 +3,7 @@ project(OpenGLTest)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(OpenGLTest main.cpp glad.c)
+add_executable(${PROJECT_NAME} main.cpp glad.c)
 
 include_directories("GLFW/include")
 
